@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_function"
+        android:icon="@drawable/ic_add"
+        android:title="@string/program_add_function"
+        app:showAsAction="ifRoom" />
+
+    <!--<item
+        android:id="@+id/action_export_function"
+        android:icon="@drawable/ic_export"
+        android:title="@string/function_export"
+        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+</menu>
